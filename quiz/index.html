@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>Klugleins</title>
+</head>
+
+<body>
+
+  <!-- top section -->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-info display-3 my-4">Das kleine Klugschei*erquiz</h2>
+    </div>
+  </div>
+
+  <!-- result section -->
+  <div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+      <p>Herzlichen Glückwunsch! You are zu <span class="text-primary display-4 p-3">0%</span> KluScher:in</p>
+    </div>
+  </div>
+
+  <!-- quiz section -->
+  <div class="quiz py-4 bg-primary">
+    <div class="container">
+      <h2 class="my-5 text-white">Dann mal los:</h2>
+
+      <form action="" class="quiz-form text-light">
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. Du weißt, wie viele Saiten E-Bass und E-Gitarre haben.</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="A" checked>
+            <label class="form-check-label">a) Klar. 6 und 6!</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label">b) Jep. Ganz klar: 4 und 6!</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="C">
+            <label class="form-check-label">c) Jo. Zweimal vier Seiten.</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. Du weißt außerdem, dass die tiefste Saite von Gitarre und Bass eine... </p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="A" checked>
+            <label class="form-check-label">a) e-Saite ist.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label">b) c-Saite ist.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="C">
+            <label class="form-check-label">c) b-Saite ist.</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. Und weil wir gerade bei Gitarren sind: Sie gehören zur Familie der</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="A" checked>
+            <label class="form-check-label">a) Saiten- und zugleich Zupfinstrumente.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label">b) Saiten und zugleich Schlaginstrumente.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="C">
+            <label class="form-check-label">c) Saiten- und zugleich Tasteninstrumente</label>
+          </div>
+        </div>
+
+
+        <h2 class="my-5 text-white">Genug von Gitarren. Was sieht's aus mit Komponisten und Epochen?</h2>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. Wer von denen ist Johann Sebastian Bach?</p>
+          <img src="img/Telemann.jpg" alt="Bild" style="width:25%;">
+          <img src="img/Vader.jpg" alt="Bild" style="width:25%;">
+          <img src="img/Bach.jpg" alt="Bild" style="width:25%;">
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="A" checked>
+            <label class="form-check-label">a) Bild 1</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label">b) Bild 2</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="C">
+            <label class="form-check-label">c) Bild 3</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">5. Johann Sebastian Bach war ein Komponist der Epoche:</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q5" value="A" checked>
+            <label class="form-check-label">a) Romantik.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q5" value="B">
+            <label class="form-check-label">b) Barock.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q5" value="C">
+            <label class="form-check-label">c) Klassik.</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">6. Was meint die eher konservative Unterscheidung der GEMA zwischen "E"- und "U" -Musik?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q6" value="A" checked>
+            <label class="form-check-label">a) Erblich und Unerkannt.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q6" value="B">
+            <label class="form-check-label">b) Ehrenhaft und Unwürdig.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q6" value="C">
+            <label class="form-check-label">c) Ernst und Unterhaltung.</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">7. Haydn, Mozart und Beethoven waren Komponisten der:</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q7" value="A" checked>
+            <label class="form-check-label">a) Frankfurter Schule</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q7" value="B">
+            <label class="form-check-label">b) Wiener Klassik</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q7" value="C">
+            <label class="form-check-label">c) Stiftung Hallorenkugeln e.V.</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">8. Das Werk 4' 33" wurde geschrieben von: </p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q8" value="A" checked>
+            <label class="form-check-label">a) Yoko Ono.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q8" value="B">
+            <label class="form-check-label">b) John Cage.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q8" value="C">
+            <label class="form-check-label">c) Karl-Heinz Stockhausen.</label>
+          </div>
+        </div>
+
+
+        <h2 class="my-5 text-white">Jetzt bitte mal in Lebensnah. Danke!</h2>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">9. Nagut... was ist der Grundkonflikt zwischen Rock und Pop?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q9" value="A" checked>
+            <label class="form-check-label">a) Kleidungsstil. Alles andere ist Murks!</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q9" value="B">
+            <label class="form-check-label">b) die Bedienung von kommerziellen Interessen.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q9" value="C">
+            <label class="form-check-label">c) die Rolle der Frau in der Musik.</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">10. Das Lied "Hallelujah" ist im Original von:</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q10" value="A" checked>
+            <label class="form-check-label">a) Elvis Presley</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q10" value="B">
+            <label class="form-check-label">b) Justin Bieber</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q10" value="C">
+            <label class="form-check-label">c) Leonhard Cohen</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q10" value="D">
+            <label class="form-check-label">d) Paul McCartney</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">11. Fortnite's Zahnseidentanz/floss dance wurde eigentlich 'erfunden' von:</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q11" value="A" checked>
+            <label class="form-check-label">a) Dem einzigartigen Tape Man!</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q11" value="B">
+            <label class="form-check-label">b) Dem unglaublich begabtem Backpack Kid!</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q11" value="C">
+            <label class="form-check-label">c) Der unvergleichlichen Ellen Hilthey!</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q11" value="D">
+            <label class="form-check-label">d) Justin Bieber.</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">12. Unter welchem Namen kennt das Finanzamt den Rapper und Dichter des Songs "Weine nicht"?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q12" value="A" checked>
+            <label class="form-check-label">a) Karl Leon.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q12" value="B">
+            <label class="form-check-label">b) Maximilian Diehn.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q12" value="C">
+            <label class="form-check-label">c) Vasiliew Kalski.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q12" value="D">
+            <label class="form-check-label">d) Justin Bieber.</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">13. Ich kann das Leitmotiv von Darth Vader!</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q13" value="A" checked>
+            <label class="form-check-label">a) jep.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q13" value="B">
+            <label class="form-check-label">b) nope.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q13" value="C">
+            <label class="form-check-label">c) "DAM DAM DAM DAAMMMMMM"</label>
+          </div>
+        </div>
+
+
+        <h2 class="my-5 text-white">Und noch ein wenig Notenlehre. Oh yeah!</h2>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">14. Treffen sich ein c' und ein g'...</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q14" value="A" checked>
+            <label class="form-check-label">a) haben wir eine große Terz.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q14" value="B">
+            <label class="form-check-label">b) kommt eine Quarte raus.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q14" value="C">
+            <label class="form-check-label">c) eine Quinte?</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">15. Was für eine Tonleiter sehen wir hier?</p>
+          <img src="img/TonleiterEDur.jpg" alt="Tonleiter" style="width: 50%">
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q15" value="A" checked>
+            <label class="form-check-label">a) G-Dur.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q15" value="B">
+            <label class="form-check-label">b) E-Dur.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q15" value="C">
+            <label class="form-check-label">c) E-Moll.</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">16. Welche Akkorde siehst du?</p>
+          <img src="img/AkkordeeC.jpg" alt="Akkorde" style="width: 20%">
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q16" value="A" checked>
+            <label class="form-check-label">a) G-Dur und A-Moll.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q16" value="B">
+            <label class="form-check-label">b) E-Dur und C Moll.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q16" value="C">
+            <label class="form-check-label">c) E-Moll und C-Dur.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q16" value="D">
+            <label class="form-check-label">d) C-Dur und G-Moll.</label>
+          </div>
+        </div>
+
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">17. Welche Taktarten erkennst du?</p>
+          <img src="img/Rhythmus.jpg" alt="Rhythmus" style="width: 50%">
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q17" value="A" checked>
+            <label class="form-check-label">a) Irgendwas mit Vierteln und Achteln.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q17" value="B">
+            <label class="form-check-label">b) 3/4 und 5/4</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q17" value="C">
+            <label class="form-check-label">c) 4/4, 3/4 und 2/4</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q17" value="D">
+            <label class="form-check-label">d) 3/4, 5/4 und 6/8</label>
+          </div>
+        </div>
+
+
+        <div class="text-center">
+          <input type="submit" class="btn btn-light">
+        </div>
+
+
+      </form>
+
+    </div>
+  </div>
+
+
+  <script src="js/app.js" charset="utf-8"></script>
+</body>
+
+</html>
